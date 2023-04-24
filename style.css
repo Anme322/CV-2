@@ -1,0 +1,72 @@
+*{
+    width: 1170px;
+    box-sizing: border-box;
+}
+.box{
+    background-color: #eee;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+img{
+    width: 200px;
+    height: 250px;
+}
+.box_inner{
+    display: flex;
+}
+.info{
+    margin-left: 20px;
+}
+.icon{
+    display: flex;
+    margin: 10px;
+}
+.icon{
+    font-size: 25px;
+}
+a:active  {
+    color: rgb(161, 26, 101);
+  }
+.aboutme{
+    background-color: #10303a;
+    border-radius: 3px;
+    margin: 10px 10px 10px 0;
+    padding: 5px;
+}
+.aboutme p:first-child{
+    text-align: center;
+    font-size: 25px;
+}
+.exp{
+    background-color: #10303a;
+    border-radius: 3px;
+    margin: 10px 10px 10px 0;
+    padding: 5px;
+}
+.exp p:first-child{
+    text-align: center;
+    font-size: 25px; 
+}
+.activity{
+    background-color: #10303a;
+    border-radius: 3px;
+    margin: 10px 10px 10px 0;
+    padding: 5px; 
+}
+.activity p{
+    text-align: center;
+    font-size: 25px;
+}
+.button{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255)
+}
